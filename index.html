@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Tangerine|Caveat" rel="stylesheet">
+    <!-- Bootstrap CSS
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>CNC програмирање!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Pictures/logo3.png" width="90" height="60" class="d-inline-block align-top rounded" alt="M3Design"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://slobodan-iv.github.io/haas/">HAAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://slobodan-iv.github.io/operate/">Sinumerik Operate Turn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://slobodan-iv.github.io/heidenhain/">Heidenhain</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Повезани Web site-ови
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Моделирање и симулација пом. рач.</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/alat_za_savijanje/">Конструисање алата за савијање</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/konstruisanje/">Конструисање</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- navbar -->
+    <!-- container -->
+    <div class="container">
+      <!-- Content here -->
+      <div>
+        <h1>CNC програмирање</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-11 col-lg-10">
+            <div class="accordion" id="cnc_programiranje">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="haas">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_haas" aria-expanded="true" aria-controls="collapse_haas">
+                    Управљачка јединица: HAAS
+                  </button>
+                </h2>
+                <div id="collapse_haas" class="accordion-collapse collapse show" aria-labelledby="haas" data-bs-parent="#cnc_programiranje">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="haas_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="o100-tab" data-bs-toggle="tab" data-bs-target="#o100" type="button" role="tab" aria-controls="o100" aria-selected="true">O100</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="o120-tab" data-bs-toggle="tab" data-bs-target="#o120" type="button" role="tab" aria-controls="o120" aria-selected="true">O120</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="o21001-tab" data-bs-toggle="tab" data-bs-target="#o21001" type="button" role="tab" aria-controls="o21001" aria-selected="true">O21001</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="o21003-tab" data-bs-toggle="tab" data-bs-target="#o21003" type="button" role="tab" aria-controls="o21003" aria-selected="true">O21003</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="o21005-tab" data-bs-toggle="tab" data-bs-target="#o21005" type="button" role="tab" aria-controls="o21005" aria-selected="true">O21005</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="haas_TabContent">
+                      <div class="tab-pane show active" id="o100" role="tabpanel" aria-labelledby="o100-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/0fFZWWUgSMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="o120" role="tabpanel" aria-labelledby="o120-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/mbChMXdC46s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="o21001" role="tabpanel" aria-labelledby="o21001-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/xTD9dMltrmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="o21003" role="tabpanel" aria-labelledby="o21003-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/xhU_jFBgTBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="o21005" role="tabpanel" aria-labelledby="o21005-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/43Fym_emc70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="sinumerik_operate_turn">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_sinumerik_operate_turn" aria-expanded="true" aria-controls="collapse_sinumerik_operate_turn">
+                    Управљачка јединица: Sinumerik Operate Turn
+                  </button>
+                </h2>
+                <div id="collapse_sinumerik_operate_turn" class="accordion-collapse collapse" aria-labelledby="sinumerik_operate_turn" data-bs-parent="#cnc_programiranje">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="sinumerik_operate_turn_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="sinumerik_operate_turn_navoj-tab" data-bs-toggle="tab" data-bs-target="#sinumerik_operate_turn_navoj" type="button" role="tab" aria-controls="sinumerik_operate_turn_navoj" aria-selected="true">Израда навоја туторијал</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="sinumerik_operate_turn_TabContent">
+                      <div class="tab-pane show active" id="sinumerik_operate_turn_navoj" role="tabpanel" aria-labelledby="sinumerik_operate_turn_navoj-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/qUuZB5CqwFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heidenhain">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_heidenhain" aria-expanded="true" aria-controls="collapse_heidenhain">
+                    Управљачка јединица: Heidenhain
+                  </button>
+                </h2>
+                <div id="collapse_heidenhain" class="accordion-collapse collapse" aria-labelledby="heidenhain" data-bs-parent="#cnc_programiranje">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="heidenhain_tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pravougle_koordinate-tab" data-bs-toggle="tab" data-bs-target="#pravougle_koordinate" type="button" role="tab" aria-controls="pravougle_koordinate" aria-selected="true">Картезијеве координате</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="polarne_koordinate-tab" data-bs-toggle="tab" data-bs-target="#polarne_koordinate" type="button" role="tab" aria-controls="polarne_koordinate" aria-selected="true">Поларне координате</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link disabled" id="obrada_dzepa-tab" data-bs-toggle="tab" data-bs-target="#obrada_dzepa" type="button" role="tab" aria-controls="obrada_dzepa" aria-selected="true">Обрада џепа</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="heidenhain_TabContent">
+                      <div class="tab-pane show active" id="pravougle_koordinate" role="tabpanel" aria-labelledby="pravougle_koordinate-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/nRQVCt0uuWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="polarne_koordinate" role="tabpanel" aria-labelledby="polarne_koordinate-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/IDN6hanv3II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="obrada_dzepa" role="tabpanel" aria-labelledby="obrada_dzepa-tab">
+                        <div class="card ratio ratio-16x9">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <nav class="card-header" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">&copy; Slobodan Ivković</li>
+                  <li class="breadcrumb-item"><a href="https://www.linkedin.com/in/slobodan-ivkovic-a08326ba"><img src="Pictures/Icons/linkedin.png" alt="linkedin logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://twitter.com/slobodan_iv"><img src="Pictures/Icons/twitter.png" alt="twitter logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://www.youtube.com/user/Mickijedini"><img src="Pictures/Icons/youtube.png" alt="youtube logo"></a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
